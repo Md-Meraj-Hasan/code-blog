@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>InfoAvtaar Data Analysis</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet"/>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#0f172a;
+color:white;
+}
+
+header{
+background:#020617;
+padding:15px;
+}
+
+.hero{
+text-align:center;
+padding:60px;
+background:linear-gradient(120deg,#020617,#1e293b);
+}
+
+.blog{
+max-width:900px;
+margin:auto;
+padding:40px;
+}
+
+.code-box{
+background:#020617;
+padding:20px;
+border-radius:10px;
+}
+
+.output img{
+width:100%;
+margin-top:20px;
+border-radius:10px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h2 style="color:#38bdf8;">InfoAvtaar</h2>
+
+</header>
+
+<section class="hero">
+
+<h1>Python Data Analysis Tutorial</h1>
+
+<p>Learn Professional Data Analysis using Pandas</p>
+
+</section>
+
+<section class="blog">
+
+<h2>Student Marks Data Analysis</h2>
+
+<h3>Python Code</h3>
+
+<div class="code-box">
+
+<pre><code class="language-python">
+
+{{code}}
+
+</code></pre>
+
+</div>
+
+<h3>Output</h3>
+
+{% if image %}
+
+<div class="output">
+
+<img src="/{{image}}">
+
+</div>
+
+{% else %}
+
+<p>No output image uploaded yet</p>
+
+{% endif %}
+
+</section>
+
+<footer>
+
+<p>© 2026 InfoAvtaar Tech Blog</p>
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+
+</body>
+
+</html>
