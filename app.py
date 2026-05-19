@@ -3,7 +3,8 @@ import os
 
 app = Flask(__name__)
 
-UPLOAD_FOLDER = "static/uploads"
+UPLOAD_FOLDER = "s" \
+"tatic/uploads"
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
 code_data = ""
