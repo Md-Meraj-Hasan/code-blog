@@ -174,8 +174,9 @@
 
               {% if post.image %}
               <div class="card-corners clip-card img-frame">
-                <img src="/{{ post.image }}" alt="Output {{ post.serial }}" class="w-full h-auto min-w-[600px]"/>
+  <img src="{{ post.image }}" alt="Output {{ post.serial }}" class="w-full h-auto min-w-[600px]" onerror="this.src=this.src.replace('static/', '');"/>
               </div>
+              
               {% else %}
               <div class="no-image clip-card">
                 <p class="text-[0.65rem] text-[#3a4a6b] tracking-widest uppercase">No dynamic visual captured for post {{ post.serial }}</p>
