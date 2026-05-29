@@ -6,7 +6,7 @@ def load_data(database):
     return df
     
 data = "Cars_data.csv"
-load_data(data)
+df = load_data(data)
 
 df.head(20)
 
